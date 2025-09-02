@@ -86,7 +86,7 @@ import org.openqa.selenium.support.ui.Select;
 
 			driver.findElement(By.xpath("//input[contains(@value,'Save')]")).click();
 
-	// verification
+// verification
 
 			// Opportunities Name
 			String actualOppName = driver.findElement(By.id("dtlview_Opportunity Name")).getText();
