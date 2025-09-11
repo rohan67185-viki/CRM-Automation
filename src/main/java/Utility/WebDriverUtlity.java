@@ -13,7 +13,7 @@ public class WebDriverUtlity {
 //Constructor
 	public WebDriverUtlity(WebDriver driver) {
 		this.driver = driver;
-		this .act = new Actions(driver);
+		this.act = new Actions(driver);
 		
 	}
 
